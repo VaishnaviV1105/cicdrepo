@@ -23,9 +23,7 @@ steps:
   init: 
 
    image: hashicorp/terraform:1.0.8 
-
-   title: Initializing Terraform 
-
+   
    stage: apply 
 
    commands: 
