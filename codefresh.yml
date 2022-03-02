@@ -24,7 +24,7 @@ steps:
 
    image: hashicorp/terraform:1.0.8
 
-   title: Initializing Terraform 
+   title: Initializing Terraformmm 22
 
    stage: apply 
 
