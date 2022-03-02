@@ -1,4 +1,4 @@
-version: '2.0' 
+version: '1.0' 
 
 stages: 
 
@@ -22,7 +22,7 @@ steps:
 
   init: 
 
-   image: hashicorp/terraform:1.1.5 
+   image: hashicorp/terraform:1.0.8
 
    title: Initializing Terraform 
 
@@ -34,7 +34,7 @@ steps:
 
   plan: 
 
-   image: hashicorp/terraform:1.1.5
+   image: hashicorp/terraform:1.0.8
 
    title: Outputting Terraform plan 
 
@@ -70,7 +70,7 @@ steps:
 
   apply: 
 
-   image: hashicorp/terraform:1.1.5
+   image: hashicorp/terraform:1.0.8
 
    title: Applying Terraform 
 
